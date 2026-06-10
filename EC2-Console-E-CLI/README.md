@@ -1,3 +1,4 @@
+
 # Explorando a AWS com o Amazon EC2
 
 Neste laboratório foi realizada uma introdução prática ao Amazon EC2, explorando a criação e o gerenciamento de instâncias tanto pelo Console de Gerenciamento da AWS quanto pelo AWS CloudShell.
@@ -18,7 +19,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço de computação em nuvem que
 # Arquitetura
 
 <p align="center">
-  <img src="imagens/arquitetura-ec2.png" width="700">
+  <img width="532" height="501" alt="EC2-arquitetura" src="https://github.com/user-attachments/assets/ea3a03b7-f293-4cbc-ba94-973442981a6a" />
 </p>
 
 

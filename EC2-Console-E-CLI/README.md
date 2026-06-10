@@ -12,7 +12,7 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço de computação em nuvem que
 - Criar uma instância EC2 de teste utilizando o Console da AWS.
 - Configurar regras de segurança para permitir acesso via HTTP.
 - Provisionar uma segunda instância EC2 utilizando comandos no AWS CloudShell.
-- Encerrar as instâncias criadas ao final do laboratório.
+
 
 ---
 
@@ -74,6 +74,107 @@ Com o acesso HTTP liberado no Security Group e o script de User Data executado c
 * Endereço IPv4 público
 * Teste de acesso HTTP via navegador
 * Página web retornando corretamente
+
+
+## Provisionamento da instância via AWS CloudShell
+
+Após a criação da instância pelo Console AWS, foi utilizado o AWS CloudShell para realizar o gerenciamento da infraestrutura por meio da AWS CLI.
+
+O CloudShell permite executar comandos diretamente no ambiente AWS sem necessidade de instalação local, facilitando automações e gerenciamento de recursos em larga escala.
+
+Nesta etapa, foram definidos parâmetros como:
+
+* nome da instância
+* nome do Security Group
+* par de chaves utilizado no acesso SSH
+
+Em seguida, foi criado um Security Group via linha de comando e configurada uma regra de entrada liberando tráfego HTTP na porta 80.
+
+<img width="1065" height="420" alt="image" src="https://github.com/user-attachments/assets/310f4ccb-73a9-4a53-b952-460b81b736b3" />
+
+
+### Comandos utilizados
+
+```bash id="gfr3bo"
+GRUPO_SEGURANCA="NomeSobrenome-grupo"
+
+NOME_INSTANCIA="instancia-NomeSobrenome"
+
+PAR_CHAVE="parchave-NomeSobrenome"
+```
+
+```bash id="r4em9y"
+SECURITY_GROUP_ID=$(aws ec2 create-security-group \
+--group-name $GRUPO_SEGURANCA \
+--description "Permitir HTTP" \
+--query "GroupId" \
+--output text)
+```
+
+```bash id="efvjlwm"
+aws ec2 authorize-security-group-ingress \
+--group-id $SECURITY_GROUP_ID \
+--protocol tcp \
+--port 80 \
+--cidr 0.0.0.0/0
+```
+
+### Evidências da execução
+
+* Abertura do AWS CloudShell
+* Configuração de variáveis via CLI
+* Criação do Security Group
+* Liberação de tráfego HTTP na porta 80
+* Execução de comandos AWS CLI
+
+
+ ## Criação da instância EC2 via AWS CLI
+
+Na sequência, foi utilizada a AWS CLI dentro do CloudShell para provisionar uma nova instância EC2 diretamente por linha de comando.
+
+O comando executado automatizou toda a criação da infraestrutura, incluindo:
+
+* definição do tipo da instância
+* utilização da AMI Amazon Linux 2023
+* associação do Security Group criado anteriormente
+* utilização do par de chaves configurado
+* definição do nome da instância
+* execução de um script de inicialização (User Data)
+
+<img width="744" height="330" alt="image" src="https://github.com/user-attachments/assets/e926cde0-e210-4314-ab5e-3509c1ffe251" />
+
+
+Além disso, o User Data foi responsável por instalar e iniciar automaticamente o Apache HTTP Server, disponibilizando uma página web simples acessível via navegador.
+
+### Comando utilizado
+
+```bash id="l1k0qx"
+aws ec2 run-instances \
+ --instance-type t2.micro \
+ --image-id $(aws ssm get-parameters-by-path \
+     --path "/aws/service/ami-amazon-linux-latest" \
+     --query "Parameters[?ends_with(Name, 'al2023-ami-kernel-default-x86_64')].Value" \
+     --output text) \
+ --security-group-ids $SECURITY_GROUP_ID \
+ --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value='$NOME_INSTANCIA'}]" \
+ --key-name $PAR_CHAVE \
+ --user-data "IyEvYmluL2Jhc2gKeXVtIC15IGluc3RhbGwgaHR0cGQKc3lzdGVtY3RsIGVuYWJsZSBodHRwZApzeXN0ZW1jdGwgc3RhcnQgaHR0cGQKZWNobyAnPGh0bWw+PGgxPk9sw6EgZG8gc2V1IHNlcnZpZG9yIHdlYiE8L2gxPjwvaHRtbD4nID4gL3Zhci93d3cvaHRtbC9pbmRleC5odG1sCg=="
+```
+
+### Validação da instância
+
+Após o provisionamento, foi realizado o teste de conectividade utilizando o endereço IPv4 público da instância, validando o acesso HTTP ao servidor web criado automaticamente.
+
+# Conclusão
+
+Neste laboratório foi possível praticar a criação e o gerenciamento de instâncias EC2 tanto pelo Console da AWS quanto via AWS CloudShell utilizando AWS CLI.
+
+Além do provisionamento das instâncias, também foram realizadas configurações de segurança, liberação de acesso HTTP e validação do servidor web em execução.
+
+
+
+
+ 
 
   
 

@@ -35,7 +35,7 @@ Essa arquitetura demonstra uma abordagem serverless para automatizar tarefas adm
 
 ## 🏗️ Arquitetura
 
-> *(Inserir aqui o diagrama da arquitetura do laboratório.)*
+> <img width="629" height="526" alt="image" src="https://github.com/user-attachments/assets/97b02691-9dda-4c82-a560-2014721db9aa" />
 
 ```
 Amazon EventBridge

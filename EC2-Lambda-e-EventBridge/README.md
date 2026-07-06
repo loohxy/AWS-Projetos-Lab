@@ -70,7 +70,8 @@ Foi criada uma política personalizada contendo permissões para:
 - Criar streams de logs;
 - Registrar eventos no CloudWatch.
 
-📷 *Inserir print da política criada.*
+<img width="1277" height="516" alt="image" src="https://github.com/user-attachments/assets/7fbfb145-e5fc-4e96-91df-5b8957839915" />
+
 
 ---
 
@@ -80,7 +81,8 @@ Foi criada uma Role destinada ao serviço Lambda.
 
 Durante a configuração foi anexada a política criada anteriormente, permitindo que a função tivesse autorização para interagir com os recursos EC2.
 
-📷 *Inserir print da Role criada.*
+<img width="1294" height="521" alt="image" src="https://github.com/user-attachments/assets/fb6be706-fad7-48f0-8b23-89a9ef6cdf9f" />
+
 
 ---
 
@@ -94,7 +96,8 @@ Foi criada uma função utilizando:
 | Tipo | Criar do zero |
 | Execution Role | Role personalizada criada anteriormente |
 
-📷 *Inserir print da criação da função.*
+<img width="1286" height="321" alt="image" src="https://github.com/user-attachments/assets/e86f9d67-a034-48bb-9417-7b990893126b" />
+
 
 ---
 
@@ -104,7 +107,8 @@ Foi realizado o upload do arquivo compactado contendo o script responsável pela
 
 Após o envio do arquivo, foi realizado o Deploy da função.
 
-📷 *Inserir print do código carregado.*
+<img width="1293" height="519" alt="image" src="https://github.com/user-attachments/assets/54785669-dc98-45f8-86dc-9ce38a74eef2" />
+
 
 ---
 
@@ -134,7 +138,8 @@ Terminator.lambda_handler
 
 para indicar corretamente o ponto de entrada do código Python.
 
-📷 *Inserir print das configurações.*
+<img width="1292" height="406" alt="image" src="https://github.com/user-attachments/assets/7bbd39c0-a19c-49c7-842c-149bd080d888" />
+
 
 ---
 
@@ -161,17 +166,24 @@ rate(12 hours)
 
 dependendo do objetivo do laboratório.
 
-📷 *Inserir print da regra criada.*
+<img width="1281" height="448" alt="image" src="https://github.com/user-attachments/assets/cf3e75d2-4053-473d-ac15-3b7a6731881b" />
+
 
 ---
 
 ## 7. Validação
 
-Após criar uma instância EC2 e aguardar o intervalo definido no EventBridge, a função Lambda foi executada automaticamente realizando a terminação da instância conforme esperado.
+Para validar a automação, foi criada uma instância Amazon EC2 de teste. Após o intervalo configurado no Amazon EventBridge, a função Lambda foi executada automaticamente e realizou o encerramento da instância conforme esperado.
 
-Os registros de execução podem ser acompanhados através do Amazon CloudWatch Logs.
+Os registros da execução podem ser acompanhados no Amazon CloudWatch Logs, enquanto o Console EC2 confirma que a instância foi encerrada com sucesso.
 
-📷 *Inserir print da execução.*
+<img width="1299" height="483" alt="image" src="https://github.com/user-attachments/assets/195c6639-cc20-4e03-a872-03316cccf1e0" />
+
+<img width="1309" height="470" alt="image" src="https://github.com/user-attachments/assets/f24defb3-ea22-482b-bf07-304684c9ad9b" />
+
+
+
+
 
 ---
 

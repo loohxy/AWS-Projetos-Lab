@@ -28,7 +28,8 @@ Essa prática é fundamental para controlar custos na nuvem, especialmente duran
 
 ## 🏗️ Arquitetura
 
-> *(Insira aqui o diagrama da arquitetura utilizado no laboratório.)*
+> <img width="563" height="444" alt="image" src="https://github.com/user-attachments/assets/dc48510b-2ef0-450a-a351-dd9753a845c3" />
+
 
 ```
 Usuário
@@ -62,7 +63,8 @@ Clique em:
 
 **Create budget**
 
-📷 *Inserir print da tela inicial do AWS Budgets.*
+<img width="1291" height="542" alt="image" src="https://github.com/user-attachments/assets/6f34bb99-3901-4f34-b0fc-53fe460030d6" />
+
 
 ---
 
@@ -87,7 +89,8 @@ Exemplo:
 meu-budget-lorena-carvalho
 ```
 
-📷 *Inserir print da criação do orçamento.*
+<img width="1299" height="533" alt="image" src="https://github.com/user-attachments/assets/bf311e34-5dc4-4cab-8ff0-3446d780035f" />
+
 
 ---
 
@@ -101,7 +104,8 @@ Configurar:
 
 Depois clicar em **Next**.
 
-📷 *Inserir print da definição do valor.*
+<img width="1285" height="453" alt="image" src="https://github.com/user-attachments/assets/e61cf87b-abcc-41ab-935e-afabb648f489" />
+
 
 ---
 
@@ -119,7 +123,8 @@ Configurações utilizadas:
 
 Isso fará com que uma notificação seja enviada quando o consumo atingir **10%** do orçamento definido.
 
-📷 *Inserir print da configuração do alerta.*
+<img width="1292" height="496" alt="image" src="https://github.com/user-attachments/assets/3eea6efc-473d-4243-af3c-3b82d332164d" />
+
 
 ---
 
@@ -133,7 +138,8 @@ Após preencher:
 - Next
 - Create Budget
 
-📷 *Inserir print da configuração do e-mail.*
+<img width="1293" height="451" alt="image" src="https://github.com/user-attachments/assets/7b60798d-e0da-48e9-a393-48f9560e41d7" />
+
 
 ---
 
@@ -146,7 +152,8 @@ Após a criação, o orçamento passa a aparecer na lista principal do AWS Budge
 - Valor utilizado
 - Status
 
-📷 *Inserir print da tela final mostrando o orçamento criado.*
+<img width="1313" height="525" alt="image" src="https://github.com/user-attachments/assets/12b52655-e2db-406e-b4f5-3600351013cd" />
+
 
 ---
 

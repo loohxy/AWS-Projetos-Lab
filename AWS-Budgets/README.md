@@ -1,6 +1,6 @@
 # 💰 Laboratório AWS - Criando um Orçamento com AWS Budgets
 
-## 📖 Sobre o laboratório
+##  Sobre o laboratório
 
 Neste laboratório foi realizada a criação de um orçamento utilizando o serviço **AWS Budgets**, permitindo definir um limite de gastos para a conta AWS e configurar notificações automáticas por e-mail quando determinado percentual do orçamento for atingido.
 
@@ -8,7 +8,7 @@ Essa prática é fundamental para controlar custos na nuvem, especialmente duran
 
 ---
 
-## 🎯 Objetivos
+##  Objetivos
 
 - Acessar o serviço **AWS Budgets** no Console AWS;
 - Criar um orçamento personalizado;
@@ -18,7 +18,7 @@ Essa prática é fundamental para controlar custos na nuvem, especialmente duran
 
 ---
 
-## 🛠️ Serviços utilizados
+##  Serviços utilizados
 
 - AWS Budgets
 - Amazon SNS (utilizado internamente para envio das notificações)
@@ -26,7 +26,7 @@ Essa prática é fundamental para controlar custos na nuvem, especialmente duran
 
 ---
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 > <img width="563" height="444" alt="image" src="https://github.com/user-attachments/assets/dc48510b-2ef0-450a-a351-dd9753a845c3" />
 
@@ -51,7 +51,7 @@ E-mail de notificação
 
 ---
 
-# 🚀 Etapas realizadas
+#  Etapas realizadas
 
 ## 1. Acessando o AWS Budgets
 
@@ -157,7 +157,7 @@ Após a criação, o orçamento passa a aparecer na lista principal do AWS Budge
 
 ---
 
-# 📊 Resultado
+#  Resultado
 
 O orçamento foi criado com sucesso.
 
@@ -170,7 +170,7 @@ Configuração utilizada:
 
 ---
 
-# 💡 Boas práticas
+#  Boas práticas
 
 Durante o laboratório foi possível compreender a importância do AWS Budgets para o gerenciamento financeiro dos recursos em nuvem.
 
@@ -184,7 +184,7 @@ Entre os principais benefícios estão:
 
 ---
 
-# 📚 Aprendizados
+#  Aprendizados
 
 Este laboratório permitiu compreender como implementar uma estratégia simples de governança financeira utilizando o **AWS Budgets**.
 
@@ -192,8 +192,3 @@ Mesmo em ambientes de aprendizado, configurar orçamentos é uma prática recome
 
 ---
 
-## 📎 Referências
-
-- AWS Budgets
-- AWS Billing and Cost Management
-- Documentação oficial da AWS

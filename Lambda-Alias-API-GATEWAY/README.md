@@ -33,7 +33,8 @@ A solução permite que diferentes versões da função sejam disponibilizadas p
 
 ## 🏗️ Arquitetura
 
-> *(Inserir aqui o diagrama da arquitetura utilizado no laboratório.)*
+> <img width="738" height="505" alt="image" src="https://github.com/user-attachments/assets/7a6b0c7d-ed79-409b-b0a3-1fa00601dce5" />
+
 
 ```text
                  Cliente
@@ -65,7 +66,8 @@ O código retorna informações como:
 - Versão da função;
 - Alias responsável pela execução.
 
-📷 *Inserir print da criação da função.*
+<img width="1292" height="460" alt="image" src="https://github.com/user-attachments/assets/7e5a95b1-9a8c-4b0c-b6d1-653779bd82f4" />
+
 
 ---
 
@@ -73,7 +75,8 @@ O código retorna informações como:
 
 Foi criado um evento de teste simulando uma requisição do API Gateway para validar a execução da função antes da publicação das versões.
 
-📷 *Inserir print do teste realizado.*
+<img width="1289" height="504" alt="image" src="https://github.com/user-attachments/assets/9558e4e5-5c7f-4349-be83-7d5ac8dcd1b2" />
+
 
 ---
 
@@ -87,9 +90,12 @@ Em seguida foi criado o Alias:
 
 que passou a apontar para essa versão.
 
-📷 *Inserir print da publicação da versão.*
 
-📷 *Inserir print do Alias dev.*
+<img width="1293" height="428" alt="image" src="https://github.com/user-attachments/assets/15b9d52e-d960-4973-af67-9e06478ebacb" />
+
+
+<img width="1293" height="483" alt="image" src="https://github.com/user-attachments/assets/cb9a2541-9f63-4f40-a03d-dbb1482e73c5" />
+
 
 ---
 
@@ -105,9 +111,11 @@ Em seguida foi criado o Alias:
 
 associado à nova versão.
 
-📷 *Inserir print da versão 2.*
+<img width="1289" height="434" alt="image" src="https://github.com/user-attachments/assets/9b2c52cc-0877-407c-97f9-ef542efe1bda" />
 
-📷 *Inserir print do Alias prod.*
+
+<img width="1292" height="482" alt="image" src="https://github.com/user-attachments/assets/3b9eada4-9627-49e4-8a44-d13e6f9e7e8a" />
+
 
 ---
 
@@ -129,7 +137,8 @@ GET
 
 utilizando integração **Lambda Proxy**.
 
-📷 *Inserir print da API.*
+<img width="1292" height="440" alt="image" src="https://github.com/user-attachments/assets/a65cc77a-15ec-42e9-8e90-e864871dc20e" />
+
 
 ---
 
@@ -144,9 +153,12 @@ Foram criados dois ambientes (Stages):
 
 Cada Stage foi configurado para invocar o Alias correspondente da função Lambda.
 
-📷 *Inserir print do Stage Desenvolvimento.*
+<img width="1303" height="476" alt="image" src="https://github.com/user-attachments/assets/4ae9b0bc-bed4-4597-84a5-4fd417ef3b55" />
 
-📷 *Inserir print do Stage Produção.*
+
+
+<img width="1295" height="469" alt="image" src="https://github.com/user-attachments/assets/c966c8b7-b893-49bf-8014-9dfcde3c988e" />
+
 
 ---
 
@@ -156,9 +168,11 @@ Foram realizados testes utilizando as URLs geradas pelo API Gateway.
 
 O endpoint de **Desenvolvimento** retornou a versão vinculada ao Alias **dev**, enquanto o endpoint de **Produção** retornou a versão associada ao Alias **prod**, confirmando o correto direcionamento entre os ambientes.
 
-📷 *Inserir print do retorno do ambiente Desenvolvimento.*
+<img width="492" height="195" alt="image" src="https://github.com/user-attachments/assets/f3ecd267-c018-4388-81fd-5c710cee8104" />
 
-📷 *Inserir print do retorno do ambiente Produção.*
+
+<img width="407" height="211" alt="image" src="https://github.com/user-attachments/assets/53a40361-8f57-405c-bb7c-a6655f951629" />
+
 
 ---
 

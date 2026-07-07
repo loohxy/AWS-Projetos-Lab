@@ -1,6 +1,6 @@
 # ⚙️ Laboratório AWS - Automatizando o Encerramento de Instâncias EC2 com AWS Lambda e EventBridge
 
-## 📖 Sobre o laboratório
+##  Sobre o laboratório
 
 Neste laboratório foi implementada uma solução de automação para encerramento de instâncias Amazon EC2 utilizando **AWS Lambda**, **Amazon EventBridge** e **IAM**.
 

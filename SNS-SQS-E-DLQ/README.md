@@ -33,9 +33,10 @@ Essa arquitetura é amplamente utilizada em sistemas distribuídos e microsservi
 
 ---
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
-> *(Inserir aqui o diagrama utilizado no laboratório.)*
+> <img width="649" height="456" alt="image" src="https://github.com/user-attachments/assets/9d204d2b-2dc9-4b2f-8607-b4dd8c0bd28d" />
+
 
 ```text
                 Publicador
@@ -203,9 +204,3 @@ Também foi possível entender o papel das Dead-Letter Queues (DLQ) na confiabil
 
 ---
 
-## 📎 Referências
-
-- Amazon SNS
-- Amazon SQS
-- Dead-Letter Queue (DLQ)
-- Documentação oficial da AWS

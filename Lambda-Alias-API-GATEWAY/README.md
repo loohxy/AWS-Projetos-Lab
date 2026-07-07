@@ -1,6 +1,6 @@
 #  Laboratório AWS - AWS Lambda com Aliases e API Gateway com Stages
 
-## 📖 Sobre o laboratório
+##  Sobre o laboratório
 
 Neste laboratório foi criada uma aplicação serverless utilizando **AWS Lambda** e **Amazon API Gateway**, explorando recursos de versionamento da função Lambda por meio de **Aliases** e a separação de ambientes utilizando **Stages** no API Gateway.
 

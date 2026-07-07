@@ -1,6 +1,6 @@
 # 📬 Laboratório AWS - Integração entre Amazon SNS, Amazon SQS e Dead-Letter Queue (DLQ)
 
-## 📖 Sobre o laboratório
+##  Sobre o laboratório
 
 Neste laboratório foi implementada uma arquitetura de mensageria utilizando **Amazon SNS**, **Amazon SQS** e **Dead-Letter Queue (DLQ)**.
 
@@ -10,7 +10,7 @@ Essa arquitetura é amplamente utilizada em sistemas distribuídos e microsservi
 
 ---
 
-## 🎯 Objetivos
+##  Objetivos
 
 - Criar uma fila Amazon SQS para atuar como Dead-Letter Queue (DLQ);
 - Criar uma fila SQS principal;
@@ -23,7 +23,7 @@ Essa arquitetura é amplamente utilizada em sistemas distribuídos e microsservi
 
 ---
 
-## 🛠️ Serviços utilizados
+##  Serviços utilizados
 
 - Amazon SNS
 - Amazon SQS
@@ -59,7 +59,7 @@ Essa arquitetura é amplamente utilizada em sistemas distribuídos e microsservi
 
 ---
 
-# 🚀 Etapas realizadas
+#  Etapas realizadas
 
 ## 1. Criação da Dead-Letter Queue (DLQ)
 
@@ -165,7 +165,7 @@ Esse mecanismo evita que mensagens com erro permaneçam bloqueando o processamen
 
 ---
 
-# 📊 Resultado
+#  Resultado
 
 Ao final do laboratório foi construída uma arquitetura de mensageria baseada em eventos utilizando serviços gerenciados da AWS.
 
@@ -178,7 +178,7 @@ Fluxo implementado:
 
 ---
 
-# 💡 Boas práticas
+#  Boas práticas
 
 Durante o laboratório foram exploradas práticas importantes para arquiteturas distribuídas, como:
 
@@ -191,7 +191,7 @@ Durante o laboratório foram exploradas práticas importantes para arquiteturas 
 
 ---
 
-# 📚 Aprendizados
+#  Aprendizados
 
 Este laboratório permitiu compreender como o Amazon SNS e o Amazon SQS trabalham em conjunto para implementar arquiteturas orientadas a eventos.
 
@@ -199,7 +199,7 @@ Também foi possível entender o papel das Dead-Letter Queues (DLQ) na confiabil
 
 ---
 
-## 🧠 Competências desenvolvidas
+##  Competências desenvolvidas
 
 - Amazon SNS
 - Amazon SQS

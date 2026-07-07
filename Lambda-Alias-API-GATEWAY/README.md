@@ -1,4 +1,4 @@
-# 🚀 Laboratório AWS - AWS Lambda com Aliases e API Gateway com Stages
+#  Laboratório AWS - AWS Lambda com Aliases e API Gateway com Stages
 
 ## 📖 Sobre o laboratório
 
@@ -8,7 +8,7 @@ A solução permite que diferentes versões da função sejam disponibilizadas p
 
 ---
 
-## 🎯 Objetivos
+##  Objetivos
 
 - Criar uma função AWS Lambda em Python;
 - Publicar diferentes versões da função Lambda;
@@ -21,7 +21,7 @@ A solução permite que diferentes versões da função sejam disponibilizadas p
 
 ---
 
-## 🛠️ Serviços utilizados
+##  Serviços utilizados
 
 - AWS Lambda
 - Amazon API Gateway
@@ -31,7 +31,7 @@ A solução permite que diferentes versões da função sejam disponibilizadas p
 
 ---
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 > <img width="738" height="505" alt="image" src="https://github.com/user-attachments/assets/7a6b0c7d-ed79-409b-b0a3-1fa00601dce5" />
 
@@ -54,7 +54,7 @@ Versão 1 da Função       Versão 2 da Função
 
 ---
 
-# 🚀 Etapas realizadas
+#  Etapas realizadas
 
 ## 1. Criação da função Lambda
 
@@ -176,7 +176,7 @@ O endpoint de **Desenvolvimento** retornou a versão vinculada ao Alias **dev**,
 
 ---
 
-# 📊 Resultado
+#  Resultado
 
 Ao final do laboratório foi implementada uma API serverless utilizando versionamento de funções Lambda e gerenciamento de ambientes através do API Gateway.
 
@@ -190,7 +190,7 @@ Fluxo implementado:
 
 ---
 
-## 🔄 Relação entre Aliases e Stages
+##  Relação entre Aliases e Stages
 
 | Recurso | Função |
 |---------|---------|
@@ -201,7 +201,7 @@ Fluxo implementado:
 
 ---
 
-# 💡 Boas práticas
+#  Boas práticas
 
 Durante o laboratório foram aplicados conceitos importantes para gerenciamento de aplicações serverless:
 
@@ -214,7 +214,7 @@ Durante o laboratório foram aplicados conceitos importantes para gerenciamento 
 
 ---
 
-# 📚 Aprendizados
+#  Aprendizados
 
 Este laboratório permitiu compreender como utilizar o versionamento do AWS Lambda em conjunto com os Stages do Amazon API Gateway para implementar diferentes ambientes de uma aplicação serverless.
 
@@ -222,7 +222,7 @@ Essa abordagem facilita o ciclo de desenvolvimento, testes e implantação, perm
 
 ---
 
-## 🧠 Competências desenvolvidas
+##  Competências desenvolvidas
 
 - AWS Lambda
 - Amazon API Gateway

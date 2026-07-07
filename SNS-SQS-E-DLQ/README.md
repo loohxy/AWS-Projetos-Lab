@@ -67,7 +67,8 @@ Foi criada uma fila Amazon SQS do tipo **Standard**, destinada ao armazenamento 
 
 Após a criação, foi obtido o ARN da fila para utilização nas configurações da fila principal.
 
-📷 *Inserir print da criação da DLQ.*
+<img width="1280" height="422" alt="image" src="https://github.com/user-attachments/assets/c1a9d454-07a6-4fce-8254-8b95eb3c6ca5" />
+
 
 ---
 
@@ -81,7 +82,8 @@ Durante a configuração foram definidos:
 - Número máximo de recebimentos igual a **3**;
 - Configurações padrão para os demais parâmetros.
 
-📷 *Inserir print da criação da fila principal.*
+<img width="1293" height="422" alt="image" src="https://github.com/user-attachments/assets/d1a010c1-a6d4-4652-9879-7832734a297f" />
+
 
 ---
 
@@ -91,7 +93,8 @@ Foi criado um tópico Amazon SNS do tipo **Standard**, responsável pela distrib
 
 Após sua criação foi copiado o ARN do tópico para utilização nas próximas etapas.
 
-📷 *Inserir print da criação do tópico.*
+<img width="1302" height="381" alt="image" src="https://github.com/user-attachments/assets/6b91e4fb-d55a-47df-b20b-1fd7e614f1bb" />
+
 
 ---
 
@@ -106,9 +109,11 @@ Foi criada uma assinatura utilizando:
 
 Também foi configurada a política de acesso da fila SQS permitindo que somente o tópico SNS criado pudesse enviar mensagens para ela.
 
-📷 *Inserir print da assinatura.*
+<img width="1289" height="453" alt="image" src="https://github.com/user-attachments/assets/a3f71ac1-b533-4d0a-9ca6-cf00bab114f9" />
 
-📷 *Inserir print da política da fila.*
+
+<img width="1288" height="485" alt="image" src="https://github.com/user-attachments/assets/56df90a1-1c45-4477-9f12-c5958fc26e1e" />
+
 
 ---
 
@@ -127,7 +132,8 @@ Exemplo:
 }
 ```
 
-📷 *Inserir print da publicação da mensagem.*
+<img width="1286" height="482" alt="image" src="https://github.com/user-attachments/assets/c6632f1c-0aa7-4e09-947a-b0d8339ad7bb" />
+
 
 ---
 
@@ -135,7 +141,8 @@ Exemplo:
 
 Após a publicação, a mensagem foi recebida corretamente na fila principal do Amazon SQS, confirmando o funcionamento da integração entre os serviços.
 
-📷 *Inserir print da mensagem recebida.*
+<img width="948" height="517" alt="image" src="https://github.com/user-attachments/assets/c4e5f0bc-0581-4bc0-a0f2-4edab6071463" />
+
 
 ---
 
@@ -147,11 +154,14 @@ Após atingir o limite configurado de **3 tentativas**, o Amazon SQS moveu autom
 
 Esse mecanismo evita que mensagens com erro permaneçam bloqueando o processamento das demais mensagens da fila principal.
 
-📷 *Inserir print da Receive Count.*
+<img width="1275" height="341" alt="image" src="https://github.com/user-attachments/assets/e52789ad-4cff-4e1a-9c50-623f7de19b75" />
 
-📷 *Inserir print da fila principal sem a mensagem.*
 
-📷 *Inserir print da mensagem presente na DLQ.*
+<img width="1254" height="359" alt="image" src="https://github.com/user-attachments/assets/f89f7f10-23f5-437c-bd4b-4325da0bdc08" />
+
+
+<img width="1248" height="332" alt="image" src="https://github.com/user-attachments/assets/c6d1b3e6-6447-49e2-acce-e704008f3fbc" />
+
 
 ---
 

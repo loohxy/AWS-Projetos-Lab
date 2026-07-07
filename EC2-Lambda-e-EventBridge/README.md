@@ -10,7 +10,7 @@ Essa arquitetura demonstra uma abordagem serverless para automatizar tarefas adm
 
 ---
 
-## 🎯 Objetivos
+##  Objetivos
 
 - Criar uma política personalizada no IAM;
 - Criar uma Role para execução do Lambda;
@@ -23,7 +23,7 @@ Essa arquitetura demonstra uma abordagem serverless para automatizar tarefas adm
 
 ---
 
-## 🛠️ Serviços utilizados
+##  Serviços utilizados
 
 - AWS IAM
 - AWS Lambda
@@ -33,7 +33,7 @@ Essa arquitetura demonstra uma abordagem serverless para automatizar tarefas adm
 
 ---
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 > <img width="629" height="526" alt="image" src="https://github.com/user-attachments/assets/97b02691-9dda-4c82-a560-2014721db9aa" />
 
@@ -57,7 +57,7 @@ CloudWatch Logs
 
 ---
 
-# 🚀 Etapas realizadas
+#  Etapas realizadas
 
 ## 1. Criação da política IAM
 
@@ -187,7 +187,7 @@ Os registros da execução podem ser acompanhados no Amazon CloudWatch Logs, enq
 
 ---
 
-# 📊 Resultado
+#  Resultado
 
 Ao final do laboratório foi construída uma solução totalmente automatizada para encerramento de instâncias EC2 utilizando arquitetura serverless.
 
@@ -201,7 +201,7 @@ Fluxo implementado:
 
 ---
 
-# 💡 Boas práticas
+#  Boas práticas
 
 Durante o laboratório foi possível compreender conceitos importantes relacionados à automação na AWS.
 
@@ -216,19 +216,10 @@ Entre eles:
 
 ---
 
-# 📚 Aprendizados
+#  Aprendizados
 
 Este laboratório demonstrou como integrar diferentes serviços da AWS para criar uma solução de automação utilizando computação serverless.
 
 Além do desenvolvimento da função Lambda em Python, foi possível compreender como as permissões do IAM, os gatilhos do EventBridge e o CloudWatch trabalham em conjunto para executar tarefas administrativas automaticamente, reduzindo esforço operacional e contribuindo para um melhor controle dos recursos em nuvem.
 
 ---
-
-## 📎 Referências
-
-- AWS Lambda
-- Amazon EventBridge
-- AWS IAM
-- Amazon EC2
-- Amazon CloudWatch
-- Documentação oficial da AWS

@@ -121,7 +121,9 @@ Foi gerada uma URL pré-assinada para compartilhamento temporário do objeto arm
 
 Essa funcionalidade permite disponibilizar arquivos de forma segura por um período determinado, sem necessidade de tornar o bucket público.
 
-📷 *Inserir print da URL pré-assinada.*
+<img width="1305" height="520" alt="image" src="https://github.com/user-attachments/assets/49d01fbb-7578-4622-b1c0-0ff75b4faa4c" />
+
+<img width="398" height="184" alt="image" src="https://github.com/user-attachments/assets/907a6409-714a-4aad-b7a6-b699603f9b7b" />
 
 ---
 
@@ -131,7 +133,10 @@ Foi criado um segundo bucket destinado ao armazenamento dos logs de acesso do Am
 
 Em seguida foi habilitado o Server Access Logging no bucket principal.
 
-📷 *Inserir print da criação do bucket de logs.*
+<img width="1284" height="490" alt="image" src="https://github.com/user-attachments/assets/075073bb-fd93-4164-86be-e046192675be" />
+
+<img width="1280" height="437" alt="image" src="https://github.com/user-attachments/assets/76bcee86-a752-4329-9948-5b5173aa910f" />
+
 
 ---
 

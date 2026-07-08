@@ -67,7 +67,8 @@ Foram criados dois parâmetros do tipo **String** para armazenar URLs de banco d
 
 Esses parâmetros representam informações que não necessitam de criptografia.
 
-📷 *Inserir print dos parâmetros String.*
+<img width="1295" height="501" alt="image" src="https://github.com/user-attachments/assets/c73ab3ee-8353-4930-ba2e-b9be0548c8d7" />
+
 
 ---
 

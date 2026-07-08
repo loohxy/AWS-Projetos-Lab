@@ -1,6 +1,6 @@
 # 🔐 Laboratório AWS - AWS Systems Manager Parameter Store com AWS KMS e CloudShell
 
-## 📖 Sobre o laboratório
+##  Sobre o laboratório
 
 Neste laboratório foi utilizado o **AWS Systems Manager Parameter Store** para armazenar parâmetros de configuração da aplicação, incluindo informações públicas e dados sensíveis criptografados utilizando o **AWS Key Management Service (KMS)**.
 
@@ -10,7 +10,7 @@ Essa prática é amplamente utilizada para armazenar configurações de aplicaç
 
 ---
 
-## 🎯 Objetivos
+##  Objetivos
 
 - Criar parâmetros do tipo String;
 - Criar parâmetros do tipo SecureString;
@@ -21,7 +21,7 @@ Essa prática é amplamente utilizada para armazenar configurações de aplicaç
 
 ---
 
-## 🛠️ Serviços utilizados
+##  Serviços utilizados
 
 - AWS Systems Manager (Parameter Store)
 - AWS Key Management Service (KMS)
@@ -30,7 +30,7 @@ Essa prática é amplamente utilizada para armazenar configurações de aplicaç
 
 ---
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 > <img width="626" height="503" alt="image" src="https://github.com/user-attachments/assets/7f551392-6d62-4f11-9c3d-cb32ed4f0d66" />
 
@@ -56,7 +56,7 @@ Essa prática é amplamente utilizada para armazenar configurações de aplicaç
 
 ---
 
-# 🚀 Etapas realizadas
+#  Etapas realizadas
 
 ## 1. Criação dos parâmetros String
 
@@ -133,7 +133,7 @@ Com isso, o Parameter Store utilizou a chave KMS para descriptografar automatica
 
 ---
 
-# 📊 Resultado
+#  Resultado
 
 Ao final do laboratório foi implementado um armazenamento seguro de configurações utilizando o AWS Systems Manager Parameter Store.
 
@@ -141,7 +141,7 @@ Também foi possível integrar o serviço ao AWS KMS para proteger dados sensív
 
 ---
 
-## 🛡️ Fluxo de funcionamento
+##  Fluxo de funcionamento
 
 ```text
 Aplicação
@@ -165,7 +165,7 @@ Valor descriptografado
 
 ---
 
-## 🔐 Tipos de parâmetros no Parameter Store
+##  Tipos de parâmetros no Parameter Store
 
 | Tipo | Característica | Exemplo |
 |------|----------------|----------|
@@ -174,7 +174,7 @@ Valor descriptografado
 
 ---
 
-## ⚖️ Recuperação de parâmetros
+##  Recuperação de parâmetros
 
 | Comando | Resultado |
 |---------|-----------|
@@ -183,7 +183,7 @@ Valor descriptografado
 
 ---
 
-# 💡 Boas práticas
+#  Boas práticas
 
 Durante o laboratório foram aplicados conceitos importantes para gerenciamento seguro de configurações:
 
@@ -195,7 +195,7 @@ Durante o laboratório foram aplicados conceitos importantes para gerenciamento 
 
 ---
 
-# 📚 Aprendizados
+#  Aprendizados
 
 Este laboratório permitiu compreender como utilizar o AWS Systems Manager Parameter Store para armazenar configurações de aplicações de forma centralizada e segura.
 
@@ -203,7 +203,7 @@ Também foi possível entender como o AWS KMS protege informações sensíveis e
 
 ---
 
-## 🧠 Competências desenvolvidas
+##  Competências desenvolvidas
 
 - AWS Systems Manager
 - Parameter Store

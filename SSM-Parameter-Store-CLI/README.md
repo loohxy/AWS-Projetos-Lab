@@ -78,7 +78,8 @@ Foi criada uma chave de criptografia utilizando o **AWS Key Management Service (
 
 Essa chave será utilizada para proteger informações sensíveis armazenadas no Parameter Store.
 
-📷 *Inserir print da chave KMS.*
+<img width="1287" height="470" alt="image" src="https://github.com/user-attachments/assets/4eb1041a-8455-4e80-9209-70f40affa038" />
+
 
 ---
 
@@ -91,7 +92,8 @@ Após a criação da chave KMS, foram criados dois parâmetros do tipo **SecureS
 
 Esses parâmetros utilizam a chave KMS para armazenar os dados de forma criptografada.
 
-📷 *Inserir print dos parâmetros SecureString.*
+<img width="1273" height="246" alt="image" src="https://github.com/user-attachments/assets/02b66e6e-c5c8-44a4-8c3a-48b0780d2cae" />
+
 
 ---
 
@@ -111,7 +113,8 @@ Nesse momento foi possível observar que:
 - parâmetros String aparecem em texto legível;
 - parâmetros SecureString permanecem criptografados.
 
-📷 *Inserir print da primeira consulta.*
+<img width="1276" height="413" alt="image" src="https://github.com/user-attachments/assets/3abc441c-5f93-4273-a261-28198353c307" />
+
 
 ---
 
@@ -125,7 +128,8 @@ Foi realizada uma nova consulta utilizando o parâmetro:
 
 Com isso, o Parameter Store utilizou a chave KMS para descriptografar automaticamente o conteúdo do SecureString.
 
-📷 *Inserir print da consulta com --with-decryption.*
+<img width="1286" height="440" alt="image" src="https://github.com/user-attachments/assets/9c3e87d6-f9a7-4224-b911-aed83612b500" />
+
 
 ---
 

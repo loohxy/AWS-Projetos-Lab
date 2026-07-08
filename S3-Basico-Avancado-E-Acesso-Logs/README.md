@@ -1,6 +1,6 @@
-# 🪣 Laboratório AWS - Amazon S3: Versionamento, Ciclo de Vida, URLs Pré-assinadas e Logs de Acesso
+#  Laboratório AWS - Amazon S3: Versionamento, Ciclo de Vida, URLs Pré-assinadas e Logs de Acesso
 
-## 📖 Sobre o laboratório
+##  Sobre o laboratório
 
 Neste laboratório foram explorados recursos fundamentais do **Amazon S3** voltados para armazenamento, segurança, governança e gerenciamento do ciclo de vida dos objetos.
 
@@ -8,7 +8,7 @@ Durante a atividade foram criados buckets com configurações recomendadas de se
 
 ---
 
-## 🎯 Objetivos
+##  Objetivos
 
 - Criar buckets utilizando boas práticas de segurança;
 - Realizar upload de objetos;
@@ -21,7 +21,7 @@ Durante a atividade foram criados buckets com configurações recomendadas de se
 
 ---
 
-## 🛠️ Serviços utilizados
+##  Serviços utilizados
 
 - Amazon S3
 - AWS IAM
@@ -32,7 +32,7 @@ Durante a atividade foram criados buckets com configurações recomendadas de se
 
 ---
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 > <img width="707" height="490" alt="image" src="https://github.com/user-attachments/assets/ec31fea7-a753-4aac-8b33-f9068fd8b0f3" />
 
@@ -54,7 +54,7 @@ Durante a atividade foram criados buckets com configurações recomendadas de se
 
 ---
 
-# 🚀 Etapas realizadas
+#  Etapas realizadas
 
 ## 1. Criação do bucket
 
@@ -146,7 +146,8 @@ Após gerar novas operações no bucket principal, os registros passaram a ser a
 
 Essa funcionalidade permite auditoria e monitoramento das operações realizadas sobre os objetos.
 
-📷 *Inserir print dos logs gerados.*
+<img width="1291" height="519" alt="image" src="https://github.com/user-attachments/assets/b1f4bb11-d7db-4abd-bd88-64fc310db6d8" />
+
 
 ---
 
@@ -156,7 +157,7 @@ Ao final do laboratório foi implementada uma estrutura completa de gerenciament
 
 ---
 
-## 🔄 Fluxo dos recursos do Amazon S3
+##  Fluxo dos recursos do Amazon S3
 
 | Recurso | Benefício |
 |---------|-----------|
@@ -168,7 +169,7 @@ Ao final do laboratório foi implementada uma estrutura completa de gerenciament
 ---
 
 
-## 📦 Recursos explorados
+##  Recursos explorados
 
 | Recurso | Finalidade |
 |---------|------------|
@@ -179,7 +180,7 @@ Ao final do laboratório foi implementada uma estrutura completa de gerenciament
 
 ---
 
-## 💡 Boas práticas
+##  Boas práticas
 
 Durante o laboratório foram aplicadas práticas recomendadas para utilização do Amazon S3:
 
@@ -192,7 +193,7 @@ Durante o laboratório foram aplicadas práticas recomendadas para utilização 
 
 ---
 
-# 📚 Aprendizados
+#  Aprendizados
 
 Este laboratório permitiu compreender como o Amazon S3 oferece recursos que vão além do simples armazenamento de arquivos.
 
@@ -200,7 +201,7 @@ Foi possível explorar funcionalidades relacionadas à segurança, governança, 
 
 ---
 
-## 🧠 Competências desenvolvidas
+##  Competências desenvolvidas
 
 - Amazon S3
 - Versionamento de Objetos

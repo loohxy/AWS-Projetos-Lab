@@ -1,6 +1,6 @@
 # 🗄️ Laboratório AWS - Amazon DynamoDB com Índices Secundários (LSI e GSI)
 
-## 📖 Sobre o laboratório
+##  Sobre o laboratório
 
 Neste laboratório foi criada uma tabela no **Amazon DynamoDB** utilizando chave de partição e chave de classificação, além da implementação de **Local Secondary Index (LSI)** e **Global Secondary Index (GSI)** para otimizar diferentes tipos de consultas.
 
@@ -8,7 +8,7 @@ Também foram realizadas inserções de dados manualmente pelo Console AWS e em 
 
 ---
 
-## 🎯 Objetivos
+##  Objetivos
 
 - Criar uma tabela no Amazon DynamoDB;
 - Configurar chave de partição e chave de classificação;
@@ -20,7 +20,7 @@ Também foram realizadas inserções de dados manualmente pelo Console AWS e em 
 
 ---
 
-## 🛠️ Serviços utilizados
+##  Serviços utilizados
 
 - Amazon DynamoDB
 - AWS CloudShell
@@ -29,7 +29,7 @@ Também foram realizadas inserções de dados manualmente pelo Console AWS e em 
 
 ---
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 > <img width="694" height="492" alt="image" src="https://github.com/user-attachments/assets/bf93de93-db30-475d-8e28-d3c1c1a49c7a" />
 
@@ -56,7 +56,7 @@ Também foram realizadas inserções de dados manualmente pelo Console AWS e em 
 
 ---
 
-# 🚀 Etapas realizadas
+#  Etapas realizadas
 
 ## 1. Criação da tabela
 
@@ -71,7 +71,8 @@ Foi criada uma tabela no Amazon DynamoDB contendo:
 
 Também foram configuradas unidades provisionadas de leitura e gravação.
 
-📷 *Inserir print da criação da tabela.*
+<img width="1290" height="491" alt="image" src="https://github.com/user-attachments/assets/c69a6953-db5d-4d35-8984-d9316ce8295f" />
+
 
 ---
 
@@ -84,7 +85,8 @@ Foi criado um **Local Secondary Index (LSI)** utilizando:
 
 Esse índice permite realizar consultas utilizando a mesma chave de partição da tabela principal com diferentes critérios de ordenação.
 
-📷 *Inserir print da criação do LSI.*
+<img width="693" height="220" alt="image" src="https://github.com/user-attachments/assets/5ad3c93c-f21b-46ee-8638-e46b00cd36d7" />
+
 
 ---
 
@@ -99,7 +101,8 @@ O item contém atributos simples e compostos, incluindo:
 - Status
 - ValorTotal
 
-📷 *Inserir print do item criado.*
+<img width="1292" height="495" alt="image" src="https://github.com/user-attachments/assets/8d963b7e-ec41-4102-b5af-a46c652fd6ca" />
+
 
 ---
 
@@ -115,9 +118,11 @@ aws dynamodb batch-write-item --request-items file://pedidos_import.json
 
 Após a importação, os registros foram validados no Console do DynamoDB.
 
-📷 *Inserir print do CloudShell.*
+<img width="743" height="224" alt="image" src="https://github.com/user-attachments/assets/d5bd5375-8304-412a-84e3-e3b1ed8a6f05" />
 
-📷 *Inserir print dos itens importados.*
+
+<img width="681" height="463" alt="image" src="https://github.com/user-attachments/assets/8da9a091-5102-4b8c-9c97-138ad9caa78b" />
+
 
 ---
 
@@ -134,7 +139,8 @@ Resultado:
 - Baixa eficiência
 - Maior consumo de recursos
 
-📷 *Inserir print do Scan.*
+<img width="710" height="435" alt="image" src="https://github.com/user-attachments/assets/97896319-170b-42ec-9603-b316cb37f77e" />
+
 
 ---
 
@@ -147,7 +153,8 @@ Resultado:
 - Alta eficiência
 - Menor consumo de recursos
 
-📷 *Inserir print da Query.*
+<img width="696" height="433" alt="image" src="https://github.com/user-attachments/assets/693ba609-1dfa-4cc3-8c4e-29a25d65e957" />
+
 
 ---
 
@@ -205,12 +212,6 @@ Também foi possível importar dados em lote via CloudShell e comparar o desempe
 | **Query** | Consulta apenas os itens que correspondem à chave informada, sendo muito mais eficiente. |
 | **LSI** | Permite consultas alternativas utilizando a mesma chave de partição da tabela. |
 | **GSI** | Permite criar novos padrões de consulta utilizando uma chave de partição diferente da tabela principal. |
-
-
-Diferença entre LSI e GSI
-
-LSI (Local Secondary Index): utiliza a mesma chave de partição da tabela principal, alterando apenas a chave de classificação.
-GSI (Global Secondary Index): permite criar uma nova chave de partição e, opcionalmente, uma nova chave de classificação, oferecendo maior flexibilidade para diferentes padrões de consulta.
 
 ---
 

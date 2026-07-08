@@ -164,7 +164,8 @@ Foi utilizada uma consulta baseada no índice secundário local para localizar p
 
 Também foram aplicados filtros adicionais utilizando o atributo **ValorTotal**.
 
-📷 *Inserir print da consulta utilizando o LSI.*
+<img width="712" height="447" alt="image" src="https://github.com/user-attachments/assets/9cd0062f-7cc9-4cf6-b737-5c39e238fe33" />
+
 
 ---
 
@@ -179,7 +180,8 @@ Foi criado um **Global Secondary Index (GSI)** utilizando:
 
 Esse índice permite consultas utilizando uma chave de partição diferente da tabela principal.
 
-📷 *Inserir print da criação do GSI.*
+<img width="697" height="425" alt="image" src="https://github.com/user-attachments/assets/ee702147-5b33-48db-ab4b-c0cde4793d0c" />
+
 
 ---
 
@@ -192,11 +194,12 @@ Após a criação do índice, foram realizadas consultas utilizando:
 
 Os resultados demonstraram consultas eficientes utilizando o índice global.
 
-📷 *Inserir print da consulta no GSI.*
+<img width="685" height="489" alt="image" src="https://github.com/user-attachments/assets/3d578407-394b-463a-a364-2419e1055355" />
+
 
 ---
 
-# 📊 Resultado
+#  Resultado
 
 Ao final do laboratório foi construída uma tabela NoSQL utilizando índices secundários locais e globais para otimizar diferentes padrões de acesso aos dados.
 
@@ -204,7 +207,7 @@ Também foi possível importar dados em lote via CloudShell e comparar o desempe
 
 ---
 
-## ⚖️ Comparação entre Scan, Query, LSI e GSI
+##  Comparação entre Scan, Query, LSI e GSI
 
 | Operação | Característica |
 |----------|----------------|
@@ -215,7 +218,7 @@ Também foi possível importar dados em lote via CloudShell e comparar o desempe
 
 ---
 
-# 💡 Boas práticas
+#  Boas práticas
 
 Durante o laboratório foram explorados conceitos importantes para modelagem de bancos NoSQL:
 
@@ -228,7 +231,7 @@ Durante o laboratório foram explorados conceitos importantes para modelagem de 
 
 ---
 
-# 📚 Aprendizados
+#  Aprendizados
 
 Este laboratório permitiu compreender como estruturar uma tabela no Amazon DynamoDB considerando diferentes formas de consulta.
 
@@ -236,7 +239,7 @@ Também foi possível visualizar, na prática, como os índices secundários loc
 
 ---
 
-## 🧠 Competências desenvolvidas
+##  Competências desenvolvidas
 
 - Amazon DynamoDB
 - Modelagem NoSQL

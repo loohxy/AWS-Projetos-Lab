@@ -64,7 +64,8 @@ Foi criado um bucket Amazon S3 utilizando configurações recomendadas de segura
 - criptografia padrão (SSE-S3);
 - ACLs desabilitadas.
 
-📷 *Inserir print da criação do bucket.*
+<img width="1296" height="508" alt="image" src="https://github.com/user-attachments/assets/7bedc6d6-2ec3-4ea7-a57f-29ad441b4249" />
+
 
 ---
 
@@ -74,7 +75,8 @@ Foi criado um arquivo de teste e realizado o upload para o bucket.
 
 Após o primeiro envio, o bucket passou a armazenar o objeto.
 
-📷 *Inserir print do upload.*
+<img width="1293" height="522" alt="image" src="https://github.com/user-attachments/assets/6dd8a0a2-b40f-4538-be60-789b76037d17" />
+
 
 ---
 
@@ -86,9 +88,11 @@ Em seguida foi realizado um novo upload do mesmo arquivo, criando automaticament
 
 Também foi possível visualizar e recuperar versões anteriores.
 
-📷 *Inserir print do versionamento.*
+<img width="1287" height="484" alt="image" src="https://github.com/user-attachments/assets/fe0ef5df-ca2e-4cc9-b90b-a6bcd5c4555c" />
 
-📷 *Inserir print das versões do objeto.*
+
+<img width="1278" height="311" alt="image" src="https://github.com/user-attachments/assets/dd103cfd-952a-49d1-a6a0-154a0d04cc86" />
+
 
 ---
 
@@ -106,7 +110,8 @@ Configuração utilizada:
 
 Essa configuração reduz custos de armazenamento para arquivos acessados com pouca frequência.
 
-📷 *Inserir print da regra de Lifecycle.*
+<img width="1299" height="500" alt="image" src="https://github.com/user-attachments/assets/62984a20-3535-4b9a-b8ba-96332efd251d" />
+
 
 ---
 

@@ -74,7 +74,8 @@ Logs de Auditoria
 
 Foi criada uma instância Amazon EC2 utilizando Amazon Linux 2023 com configurações básicas de segurança para permitir acesso remoto via SSH.
 
-📷 *Inserir print da instância criada.*
+<img width="1305" height="498" alt="image" src="https://github.com/user-attachments/assets/62349975-a890-4ae9-89a4-d60705d7b9f0" />
+
 
 ---
 
@@ -93,7 +94,8 @@ Configuração utilizada:
 
 Quando o limite é atingido, o CloudWatch altera o estado do alarme.
 
-📷 *Inserir print da criação do alarme.*
+<img width="1304" height="510" alt="image" src="https://github.com/user-attachments/assets/354f564d-c23b-4780-9a51-77e46a790149" />
+
 
 ---
 
@@ -103,9 +105,9 @@ Foi criado um tópico SNS para envio das notificações.
 
 Também foi realizada a confirmação da assinatura do e-mail para recebimento dos alertas.
 
-📷 *Inserir print do tópico SNS.*
 
-📷 *Inserir print da confirmação do e-mail.*
+<img width="981" height="270" alt="image" src="https://github.com/user-attachments/assets/2cdb3b4d-b870-400f-bf30-62dfa95b75c8" />
+
 
 ---
 
@@ -120,7 +122,8 @@ Configurações utilizadas:
 - Armazenamento dos logs em bucket Amazon S3
 - Criptografia utilizando AWS KMS
 
-📷 *Inserir print da criação da Trail.*
+<img width="1287" height="424" alt="image" src="https://github.com/user-attachments/assets/36f6296a-4cb2-4aff-9050-c3b35e89eb4e" />
+
 
 ---
 
@@ -130,7 +133,8 @@ Os eventos registrados pelo CloudTrail passaram a ser armazenados automaticament
 
 Também foi explorada a opção de integração com CloudWatch Logs.
 
-📷 *Inserir print do bucket de logs.*
+<img width="1303" height="531" alt="image" src="https://github.com/user-attachments/assets/4e11ff14-e4f6-4136-9833-0286296c2927" />
+
 
 ---
 
@@ -140,7 +144,8 @@ Foi realizado acesso remoto à instância EC2.
 
 Em seguida foi instalada a ferramenta **stress-ng**, utilizada para gerar carga de CPU e validar o funcionamento do monitoramento.
 
-📷 *Inserir print do terminal executando o stress-ng.*
+<img width="586" height="676" alt="image" src="https://github.com/user-attachments/assets/f2fcebcd-5ea7-45ba-8659-f3bc9b3daa52" />
+
 
 ---
 
@@ -154,7 +159,8 @@ Como resultado:
 - o Amazon SNS enviou automaticamente a notificação por e-mail;
 - os eventos da conta permaneceram registrados pelo CloudTrail.
 
-📷 *Inserir print do alarme em estado In Alarm.*
+<img width="1301" height="315" alt="image" src="https://github.com/user-attachments/assets/139b6345-7db6-4a69-b7f3-53c7e7332261" />
+
 
 📷 *Inserir print do e-mail recebido.*
 

@@ -1,6 +1,6 @@
-# 📦 Laboratório AWS - Arquitetura Fan-Out com Amazon SNS, Amazon SQS e AWS Lambda
+#  Laboratório AWS - Arquitetura Fan-Out com Amazon SNS, Amazon SQS e AWS Lambda
 
-## 📖 Sobre o laboratório
+##  Sobre o laboratório
 
 Neste laboratório foi implementada uma arquitetura **Fan-Out** utilizando **Amazon SNS**, **Amazon SQS**, **AWS Lambda** e **Dead-Letter Queue (DLQ)** para simular o processamento distribuído de pedidos em um sistema de e-commerce.
 
@@ -8,7 +8,7 @@ A solução utiliza o Amazon SNS como ponto central de distribuição de mensage
 
 ---
 
-## 🎯 Objetivos
+##  Objetivos
 
 - Implementar uma arquitetura Fan-Out utilizando Amazon SNS;
 - Criar múltiplas funções AWS Lambda para processamento paralelo;
@@ -20,7 +20,7 @@ A solução utiliza o Amazon SNS como ponto central de distribuição de mensage
 
 ---
 
-## 🛠️ Serviços utilizados
+##  Serviços utilizados
 
 - Amazon SNS
 - Amazon SQS
@@ -31,7 +31,7 @@ A solução utiliza o Amazon SNS como ponto central de distribuição de mensage
 
 ---
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 > <img width="675" height="481" alt="image" src="https://github.com/user-attachments/assets/0979efc2-67e8-4fa5-8780-6044c37bf70b" />
 
@@ -64,7 +64,7 @@ CloudWatch Logs
 
 ---
 
-# 🚀 Etapas realizadas
+#  Etapas realizadas
 
 ## 1. Criação da fila SQS e Dead-Letter Queue
 
@@ -197,7 +197,7 @@ Todos os registros foram acompanhados pelo Amazon CloudWatch Logs.
 
 ---
 
-# 📊 Resultado
+#  Resultado
 
 Ao final do laboratório foi implementada uma arquitetura orientada a eventos utilizando Amazon SNS como ponto central de distribuição de mensagens.
 
@@ -205,7 +205,7 @@ O uso de filtros de assinatura, filas SQS, processamento paralelo por Lambda e D
 
 ---
 
-## 🌐 Arquitetura Fan-Out
+##  Arquitetura Fan-Out
 
 Em uma arquitetura **Fan-Out**, uma única mensagem publicada em um tópico Amazon SNS pode ser distribuída simultaneamente para múltiplos consumidores.
 
@@ -223,7 +223,7 @@ Cada consumidor processa apenas os eventos relevantes por meio de filtros de ass
 
 ---
 
-## 🔀 Fluxo da arquitetura Fan-Out
+##  Fluxo da arquitetura Fan-Out
 
 | Serviço | Função |
 |---------|---------|
@@ -236,7 +236,7 @@ Cada consumidor processa apenas os eventos relevantes por meio de filtros de ass
 
 ---
 
-## 💡 Boas práticas
+##  Boas práticas
 
 Durante o laboratório foram aplicados conceitos importantes para arquiteturas distribuídas:
 
@@ -251,7 +251,7 @@ Durante o laboratório foram aplicados conceitos importantes para arquiteturas d
 
 ---
 
-# 📚 Aprendizados
+#  Aprendizados
 
 Este laboratório permitiu compreender como construir uma arquitetura orientada a eventos utilizando serviços gerenciados da AWS.
 
@@ -259,7 +259,7 @@ Foi possível integrar Amazon SNS, Amazon SQS e AWS Lambda para distribuir event
 
 ---
 
-## 🧠 Competências desenvolvidas
+##  Competências desenvolvidas
 
 - Amazon SNS
 - Amazon SQS

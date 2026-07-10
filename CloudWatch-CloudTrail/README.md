@@ -1,6 +1,6 @@
-# 📊 Laboratório AWS - Monitoramento e Auditoria com Amazon CloudWatch e AWS CloudTrail
+#  Laboratório AWS - Monitoramento e Auditoria com Amazon CloudWatch e AWS CloudTrail
 
-## 📖 Sobre o laboratório
+##  Sobre o laboratório
 
 Neste laboratório foi implementada uma solução de monitoramento e auditoria utilizando **Amazon CloudWatch**, **AWS CloudTrail**, **Amazon SNS** e **Amazon S3**.
 
@@ -10,7 +10,7 @@ Essa arquitetura demonstra como combinar serviços da AWS para monitorar recurso
 
 ---
 
-## 🎯 Objetivos
+##  Objetivos
 
 - Criar uma instância Amazon EC2;
 - Configurar um alarme no Amazon CloudWatch;
@@ -23,7 +23,7 @@ Essa arquitetura demonstra como combinar serviços da AWS para monitorar recurso
 
 ---
 
-## 🛠️ Serviços utilizados
+##  Serviços utilizados
 
 - Amazon EC2
 - Amazon CloudWatch
@@ -36,7 +36,7 @@ Essa arquitetura demonstra como combinar serviços da AWS para monitorar recurso
 
 ---
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 > <img width="728" height="477" alt="image" src="https://github.com/user-attachments/assets/db2d8255-88a8-4dac-90bc-bdb640559e1d" />
 
@@ -68,7 +68,7 @@ Logs de Auditoria
 
 ---
 
-# 🚀 Etapas realizadas
+#  Etapas realizadas
 
 ## 1. Criação da instância EC2
 
@@ -162,11 +162,11 @@ Como resultado:
 <img width="1301" height="315" alt="image" src="https://github.com/user-attachments/assets/139b6345-7db6-4a69-b7f3-53c7e7332261" />
 
 
-📷 *Inserir print do e-mail recebido.*
+
 
 ---
 
-# 📊 Resultado
+#  Resultado
 
 Ao final do laboratório foi implementada uma solução de monitoramento e auditoria utilizando serviços gerenciados da AWS.
 
@@ -192,7 +192,7 @@ Fluxo implementado:
 
 ---
 
-## 📈 Fluxo de monitoramento e auditoria
+##  Fluxo de monitoramento e auditoria
 
 | Serviço | Função |
 |---------|---------|
@@ -204,7 +204,7 @@ Fluxo implementado:
 
 ---
 
-## 💡 Boas práticas
+##  Boas práticas
 
 Durante o laboratório foram aplicados conceitos importantes para observabilidade e segurança na AWS:
 
@@ -217,7 +217,7 @@ Durante o laboratório foram aplicados conceitos importantes para observabilidad
 
 ---
 
-# 📚 Aprendizados
+#  Aprendizados
 
 Este laboratório permitiu compreender como integrar serviços de monitoramento e auditoria para aumentar a visibilidade sobre o ambiente AWS.
 
@@ -225,7 +225,7 @@ Além de acompanhar métricas da infraestrutura em tempo real, foi possível con
 
 ---
 
-## 🧠 Competências desenvolvidas
+##  Competências desenvolvidas
 
 - Amazon EC2
 - Amazon CloudWatch

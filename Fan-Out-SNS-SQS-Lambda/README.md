@@ -75,9 +75,8 @@ Foram criadas duas filas Amazon SQS:
 
 A fila principal foi configurada para mover automaticamente mensagens para a DLQ após **3 tentativas** de processamento sem sucesso.
 
-📷 *Inserir print da criação da fila principal.*
+<img width="1309" height="310" alt="image" src="https://github.com/user-attachments/assets/1732a6d0-c2d3-43dc-bdf9-fc3aacf4b7df" />
 
-📷 *Inserir print da DLQ.*
 
 ---
 
@@ -87,7 +86,8 @@ Foi criado um tópico Amazon SNS responsável por distribuir os eventos do siste
 
 Esse tópico atua como ponto central da arquitetura Fan-Out.
 
-📷 *Inserir print do tópico SNS.*
+<img width="1302" height="421" alt="image" src="https://github.com/user-attachments/assets/91a2e968-6c63-40f2-9a70-51b079abb161" />
+
 
 ---
 
@@ -97,7 +97,11 @@ Foram criadas Roles específicas para execução das funções Lambda.
 
 As permissões foram configuradas conforme a responsabilidade de cada função.
 
-📷 *Inserir print das Roles.*
+<img width="1293" height="398" alt="image" src="https://github.com/user-attachments/assets/8ad7306f-e7ec-440a-b1f9-31d3826e20e1" />
+
+<img width="1298" height="457" alt="image" src="https://github.com/user-attachments/assets/4c08f408-573e-475d-a940-6e31e42b89eb" />
+
+
 
 ---
 
@@ -112,7 +116,8 @@ Foram desenvolvidas quatro funções Lambda responsáveis por diferentes process
 
 Cada função executa uma tarefa independente, permitindo processamento paralelo.
 
-📷 *Inserir print das funções Lambda.*
+<img width="1304" height="422" alt="image" src="https://github.com/user-attachments/assets/8d8faba2-1975-4295-b217-32b81602fcbe" />
+
 
 ---
 
@@ -122,7 +127,8 @@ A Lambda responsável pela análise de fraude foi configurada para consumir mens
 
 Também foi definido o processamento de uma mensagem por execução.
 
-📷 *Inserir print do Trigger SQS.*
+<img width="1287" height="512" alt="image" src="https://github.com/user-attachments/assets/c3ebb91f-0700-49bc-97f1-9ac1618435d1" />
+
 
 ---
 
@@ -139,7 +145,8 @@ Exemplos:
 - Cliente → OrderConfirmed / OrderShipped
 - Fraude → TransactionValue > 500
 
-📷 *Inserir print das Subscription Filter Policies.*
+<img width="1011" height="349" alt="image" src="https://github.com/user-attachments/assets/352dca8f-9adf-4128-b4bb-e0ef0bf73f89" />
+
 
 ---
 
@@ -147,7 +154,8 @@ Exemplos:
 
 Foi configurada a política de acesso da fila SQS permitindo que somente o tópico SNS publique mensagens.
 
-📷 *Inserir print da Access Policy.*
+<img width="1299" height="524" alt="image" src="https://github.com/user-attachments/assets/e9e5842e-8533-45f0-a3ee-43268fb95ecd" />
+
 
 ---
 
@@ -157,7 +165,12 @@ Foi publicada uma mensagem simulando um pedido de e-commerce.
 
 Também foram enviados atributos da mensagem para acionar corretamente os filtros das assinaturas.
 
-📷 *Inserir print da publicação da mensagem.*
+<img width="929" height="500" alt="image" src="https://github.com/user-attachments/assets/d31e4aae-8fb2-430e-8ed3-6c88229bb0a2" />
+
+
+<img width="1165" height="494" alt="image" src="https://github.com/user-attachments/assets/88982f0a-700d-49d4-896e-cedbfdc92243" />
+
+
 
 ---
 
@@ -172,11 +185,15 @@ Após a publicação da mensagem foi possível observar:
 
 Todos os registros foram acompanhados pelo Amazon CloudWatch Logs.
 
-📷 *Inserir print dos logs da Lambda Inventário.*
+<img width="1033" height="402" alt="image" src="https://github.com/user-attachments/assets/e5bccb33-6f59-47a4-a1d4-654f76dcf517" />
 
-📷 *Inserir print dos logs da Lambda Pagamento.*
 
-📷 *Inserir print dos logs da Lambda Fraude.*
+
+<img width="1055" height="369" alt="image" src="https://github.com/user-attachments/assets/bcbc04d7-90d1-4ea3-a7ba-0cfa14b980e2" />
+
+
+<img width="1050" height="390" alt="image" src="https://github.com/user-attachments/assets/9b4d60d6-1a29-4d1e-be90-f3326ce794c3" />
+
 
 ---
 

@@ -136,7 +136,8 @@ Após a conclusão do provisionamento, a aplicação de exemplo foi disponibiliz
 
 Também foi possível verificar que toda a infraestrutura foi criada automaticamente e passou a ser gerenciada pelo Elastic Beanstalk.
 
-📷 *Inserir print da aplicação funcionando.*
+<img width="1301" height="603" alt="image" src="https://github.com/user-attachments/assets/6dc1c9e1-9562-4c5c-bcf6-680ce4061452" />
+
 
 ---
 

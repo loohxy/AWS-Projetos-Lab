@@ -62,7 +62,8 @@ Foi criada uma IAM Role destinada às instâncias EC2 utilizadas pelo Elastic Be
 
 Foram associadas políticas gerenciadas necessárias para o funcionamento do ambiente, incluindo permissões de monitoramento e gerenciamento.
 
-📷 *Inserir print da criação da Role.*
+<img width="1285" height="300" alt="image" src="https://github.com/user-attachments/assets/ac16bf89-9093-4565-b8cf-e25b17ad6c09" />
+
 
 ---
 
@@ -77,7 +78,8 @@ Configurações utilizadas:
 - Preset: Single Instance
 - Código: Sample Application
 
-📷 *Inserir print da criação da aplicação.*
+<img width="982" height="219" alt="image" src="https://github.com/user-attachments/assets/0480cec9-cf11-45a6-8a45-78ee02574899" />
+
 
 ---
 
@@ -91,7 +93,8 @@ Durante a criação do ambiente foram configuradas:
 
 Após a revisão das configurações, foi iniciado o provisionamento automático da infraestrutura.
 
-📷 *Inserir print da configuração do ambiente.*
+<img width="1002" height="349" alt="image" src="https://github.com/user-attachments/assets/f63ef1f6-ec08-49e2-93e1-161e5e5a8d30" />
+
 
 ---
 
@@ -101,7 +104,8 @@ O Elastic Beanstalk criou automaticamente os recursos necessários para execuç�
 
 Também foi possível acompanhar o processo através da Stack criada no AWS CloudFormation.
 
-📷 *Inserir print da Stack no CloudFormation.*
+<img width="1026" height="485" alt="image" src="https://github.com/user-attachments/assets/94fca539-9ac6-4343-9f7d-be90f53801b5" />
+
 
 ---
 
@@ -117,11 +121,12 @@ Após a criação do ambiente foram exploradas diversas funcionalidades do servi
 - Atualizações gerenciadas;
 - Configurações do ambiente.
 
-📷 *Inserir print da aba Health.*
+<img width="992" height="450" alt="image" src="https://github.com/user-attachments/assets/b8342b18-4df3-4300-800d-1957e55f6bbb" />
 
-📷 *Inserir print da aba Logs.*
 
-📷 *Inserir print da aba Monitoring.*
+<img width="1008" height="362" alt="image" src="https://github.com/user-attachments/assets/68b04f4c-0940-4d1d-abce-54f520dd388e" />
+
+
 
 ---
 

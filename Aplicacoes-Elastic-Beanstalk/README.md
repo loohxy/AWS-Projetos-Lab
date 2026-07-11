@@ -1,6 +1,6 @@
-# 🚀 Laboratório AWS - Implantação de Aplicações com AWS Elastic Beanstalk
+#  Laboratório AWS - Implantação de Aplicações com AWS Elastic Beanstalk
 
-## 📖 Sobre o laboratório
+##  Sobre o laboratório
 
 Neste laboratório foi realizado o deploy de uma aplicação web utilizando o **AWS Elastic Beanstalk**, explorando o processo de criação da infraestrutura, configuração de permissões IAM e gerenciamento do ambiente.
 
@@ -10,7 +10,7 @@ O laboratório demonstra como o Elastic Beanstalk simplifica o ciclo de vida de 
 
 ---
 
-## 🎯 Objetivos
+##  Objetivos
 
 - Criar uma IAM Role para instâncias EC2 do Elastic Beanstalk;
 - Implantar uma aplicação utilizando o AWS Elastic Beanstalk;
@@ -20,7 +20,7 @@ O laboratório demonstra como o Elastic Beanstalk simplifica o ciclo de vida de 
 
 ---
 
-## 🛠️ Serviços utilizados
+##  Serviços utilizados
 
 - AWS Elastic Beanstalk
 - AWS IAM
@@ -32,7 +32,7 @@ O laboratório demonstra como o Elastic Beanstalk simplifica o ciclo de vida de 
 
 ---
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 > <img width="475" height="519" alt="image" src="https://github.com/user-attachments/assets/95b87cd4-002c-4471-b3b4-b5226a628be2" />
 
@@ -54,7 +54,7 @@ O laboratório demonstra como o Elastic Beanstalk simplifica o ciclo de vida de 
 
 ---
 
-# 🚀 Etapas realizadas
+#  Etapas realizadas
 
 ## 1. Criação da IAM Role
 
@@ -141,7 +141,7 @@ Também foi possível verificar que toda a infraestrutura foi criada automaticam
 
 ---
 
-# 📊 Resultado
+#  Resultado
 
 Ao final do laboratório foi implantada uma aplicação web utilizando o AWS Elastic Beanstalk.
 
@@ -149,7 +149,7 @@ O serviço automatizou o provisionamento da infraestrutura necessária, incluind
 
 ---
 
-## 🤖 O que o Elastic Beanstalk gerencia automaticamente?
+##  O que o Elastic Beanstalk gerencia automaticamente?
 
 O AWS Elastic Beanstalk automatiza diversas tarefas operacionais necessárias para hospedar uma aplicação na AWS.
 
@@ -176,7 +176,7 @@ O AWS Elastic Beanstalk automatiza diversas tarefas operacionais necessárias pa
 
 ---
 
-## 💡 Boas práticas
+##  Boas práticas
 
 Durante o laboratório foram aplicados conceitos importantes para implantação de aplicações na AWS:
 
@@ -189,7 +189,7 @@ Durante o laboratório foram aplicados conceitos importantes para implantação 
 
 ---
 
-# 📚 Aprendizados
+#  Aprendizados
 
 Este laboratório permitiu compreender como o AWS Elastic Beanstalk simplifica a implantação e o gerenciamento de aplicações na nuvem.
 
@@ -197,7 +197,7 @@ Também foi possível visualizar como diversos serviços da AWS trabalham em con
 
 ---
 
-## 🧠 Competências desenvolvidas
+##  Competências desenvolvidas
 
 - AWS Elastic Beanstalk
 - Amazon EC2

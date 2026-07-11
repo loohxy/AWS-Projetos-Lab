@@ -1,6 +1,6 @@
-# 🛒 Laboratório AWS - Aplicação CRUD Serverless com Amazon DynamoDB, AWS Lambda, API Gateway e Amazon S3
+#  Laboratório AWS - Aplicação CRUD Serverless com Amazon DynamoDB, AWS Lambda, API Gateway e Amazon S3
 
-## 📖 Sobre o laboratório
+##  Sobre o laboratório
 
 Neste laboratório foi desenvolvida uma aplicação **CRUD (Create, Read, Update e Delete)** utilizando uma arquitetura **serverless** na AWS.
 
@@ -10,7 +10,7 @@ Também foram configurados monitoramento e registros de acesso utilizando **Amaz
 
 ---
 
-## 🎯 Objetivos
+##  Objetivos
 
 - Criar uma IAM Role para execução da função Lambda;
 - Criar uma tabela Amazon DynamoDB;
@@ -24,7 +24,7 @@ Também foram configurados monitoramento e registros de acesso utilizando **Amaz
 
 ---
 
-## 🛠️ Serviços utilizados
+##  Serviços utilizados
 
 - Amazon DynamoDB
 - AWS Lambda
@@ -37,7 +37,7 @@ Também foram configurados monitoramento e registros de acesso utilizando **Amaz
 
 ---
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 > <img width="751" height="514" alt="image" src="https://github.com/user-attachments/assets/c0eb6f65-616c-4b45-bf65-12d278bb8102" />
 
@@ -67,7 +67,7 @@ CloudWatch Logs
 
 ---
 
-# 🚀 Etapas realizadas
+#  Etapas realizadas
 
 ## 1. Criação da IAM Role
 
@@ -216,7 +216,7 @@ Os registros permitiram acompanhar as chamadas HTTP e as execuções da função
 
 ---
 
-# 📊 Resultado
+#  Resultado
 
 Ao final do laboratório foi implantada uma aplicação CRUD totalmente serverless utilizando serviços gerenciados da AWS.
 
@@ -226,7 +226,7 @@ Todo o fluxo foi monitorado por meio do Amazon CloudWatch Logs.
 
 ---
 
-## 🏛️ Papel de cada serviço na arquitetura
+##  Papel de cada serviço na arquitetura
 
 | Serviço | Papel na solução |
 |----------|------------------|
@@ -239,7 +239,7 @@ Todo o fluxo foi monitorado por meio do Amazon CloudWatch Logs.
 
 ---
 
-## 🔄 Fluxo da aplicação
+##  Fluxo da aplicação
 
 | Serviço | Responsabilidade |
 |---------|------------------|
@@ -251,7 +251,7 @@ Todo o fluxo foi monitorado por meio do Amazon CloudWatch Logs.
 
 ---
 
-## 🌐 Fluxo da arquitetura
+##  Fluxo da arquitetura
 
 ```text
 Usuário
@@ -276,7 +276,7 @@ CloudWatch Logs
 
 ---
 
-## 💡 Boas práticas
+##  Boas práticas
 
 Durante o laboratório foram aplicados conceitos importantes para aplicações serverless:
 
@@ -291,7 +291,7 @@ Durante o laboratório foram aplicados conceitos importantes para aplicações s
 
 ---
 
-# 📚 Aprendizados
+#  Aprendizados
 
 Este laboratório permitiu compreender como construir uma aplicação CRUD totalmente serverless utilizando serviços gerenciados da AWS.
 
@@ -299,7 +299,7 @@ Foi possível integrar frontend, API, processamento e banco de dados sem necessi
 
 ---
 
-## 🧠 Competências desenvolvidas
+##  Competências desenvolvidas
 
 - Amazon S3
 - Amazon API Gateway

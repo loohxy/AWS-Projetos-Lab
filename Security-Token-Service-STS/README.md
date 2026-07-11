@@ -1,6 +1,6 @@
 # 🔐 Laboratório AWS - Credenciais Temporárias com AWS Security Token Service (STS)
 
-## 📖 Sobre o laboratório
+##  Sobre o laboratório
 
 Neste laboratório foi explorado o **AWS Security Token Service (STS)** para criação e utilização de credenciais temporárias por meio da assunção de uma **IAM Role**.
 
@@ -10,7 +10,7 @@ O laboratório também demonstrou como políticas de confiança controlam quem p
 
 ---
 
-## 🎯 Objetivos
+##  Objetivos
 
 - Criar uma IAM Role com permissões específicas;
 - Configurar a política de confiança da Role;
@@ -22,7 +22,7 @@ O laboratório também demonstrou como políticas de confiança controlam quem p
 
 ---
 
-## 🛠️ Serviços utilizados
+##  Serviços utilizados
 
 - AWS Security Token Service (STS)
 - AWS Identity and Access Management (IAM)
@@ -32,7 +32,7 @@ O laboratório também demonstrou como políticas de confiança controlam quem p
 
 ---
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 > <img width="643" height="499" alt="image" src="https://github.com/user-attachments/assets/9c8476b3-ca29-44ca-a762-d19e5eb152a5" />
 
@@ -61,7 +61,7 @@ O laboratório também demonstrou como políticas de confiança controlam quem p
 
 ---
 
-# 🚀 Etapas realizadas
+#  Etapas realizadas
 
 ## 1. Preparação do ambiente
 
@@ -179,7 +179,7 @@ Após essa alteração, uma nova tentativa de assumir a Role resultou em erro de
 
 ---
 
-# 📊 Resultado
+#  Resultado
 
 Ao final do laboratório foi implementado um fluxo completo de autenticação utilizando credenciais temporárias do AWS STS.
 
@@ -187,7 +187,7 @@ Também foi possível validar o funcionamento das políticas de confiança, o co
 
 ---
 
-## 🔄 Como funciona o AWS STS
+##  Como funciona o AWS STS
 
 ```text
 Usuário IAM
@@ -220,7 +220,7 @@ Usuário IAM
 
 ---
 
-## 🔑 Fluxo das credenciais temporárias
+##  Fluxo das credenciais temporárias
 
 | Etapa | Descrição |
 |--------|-----------|
@@ -232,7 +232,7 @@ Usuário IAM
 
 ---
 
-## 💡 Boas práticas
+##  Boas práticas
 
 Durante o laboratório foram aplicados conceitos importantes relacionados à segurança e gerenciamento de identidades:
 
@@ -245,7 +245,7 @@ Durante o laboratório foram aplicados conceitos importantes relacionados à seg
 
 ---
 
-# 📚 Aprendizados
+#  Aprendizados
 
 Este laboratório permitiu compreender como o AWS Security Token Service (STS) fornece credenciais temporárias para acesso seguro aos recursos da AWS.
 
@@ -253,7 +253,7 @@ Também foi possível observar como IAM Roles e políticas de confiança trabalh
 
 ---
 
-## 🧠 Competências desenvolvidas
+##  Competências desenvolvidas
 
 - AWS STS
 - AWS IAM

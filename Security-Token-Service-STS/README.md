@@ -34,7 +34,8 @@ O laboratório também demonstrou como políticas de confiança controlam quem p
 
 ## 🏗️ Arquitetura
 
-> *(Inserir aqui o diagrama utilizado no laboratório.)*
+> <img width="643" height="499" alt="image" src="https://github.com/user-attachments/assets/9c8476b3-ca29-44ca-a762-d19e5eb152a5" />
+
 
 ```text
           Usuário IAM
@@ -72,7 +73,8 @@ Durante essa etapa foram instalados:
 - Biblioteca Boto3;
 - AWS CLI.
 
-📷 *Inserir print da instalação do Python e Boto3.*
+<img width="518" height="100" alt="image" src="https://github.com/user-attachments/assets/4a5bd40d-78ec-4148-926f-c5f22a082f7a" />
+
 
 ---
 
@@ -84,7 +86,8 @@ Também foi anexada a política:
 
 - AmazonS3FullAccess
 
-📷 *Inserir print da criação da Role.*
+<img width="1293" height="461" alt="image" src="https://github.com/user-attachments/assets/6a6cfb5d-147e-4876-bbb5-d3bc37677c78" />
+
 
 ---
 
@@ -94,7 +97,8 @@ Foi utilizada a funcionalidade **Switch Role** do Console AWS para alternar da i
 
 Após a troca foi possível verificar que apenas os serviços autorizados estavam acessíveis.
 
-📷 *Inserir print do Switch Role.*
+<img width="1019" height="553" alt="image" src="https://github.com/user-attachments/assets/257937d7-c3bb-437a-9852-2c8debeffec5" />
+
 
 ---
 
@@ -108,7 +112,8 @@ aws sts get-caller-identity
 
 confirmando a identidade atualmente autenticada.
 
-📷 *Inserir print do comando.*
+<img width="637" height="289" alt="image" src="https://github.com/user-attachments/assets/f83f767b-efe4-4183-a30f-36868a5bf652" />
+
 
 ---
 
@@ -120,9 +125,11 @@ Inicialmente foi utilizado um tempo de sessão superior ao permitido, gerando o 
 
 Após ajustar o tempo de sessão para um valor válido, as credenciais temporárias foram geradas com sucesso.
 
-📷 *Inserir print do erro de duração.*
+<img width="1246" height="74" alt="image" src="https://github.com/user-attachments/assets/225b5bbe-adcd-4f32-8d4c-80878133b2cb" />
 
-📷 *Inserir print das credenciais temporárias geradas (mascarando Access Key, Secret Key e Session Token).*
+
+<img width="1259" height="317" alt="image" src="https://github.com/user-attachments/assets/767f1943-5b8c-4334-8804-f9eef99e7bb3" />
+
 
 ---
 
@@ -132,7 +139,8 @@ As credenciais temporárias foram configuradas na AWS CLI.
 
 Também foi adicionada a Session Token ao arquivo de credenciais.
 
-📷 *Inserir print da configuração.*
+<img width="1271" height="357" alt="image" src="https://github.com/user-attachments/assets/17462c3c-e59a-4e03-a82f-061354ecfb07" />
+
 
 ---
 
@@ -149,9 +157,11 @@ Resultados obtidos:
 
 Esses testes demonstraram que a Role concedia apenas as permissões previamente configuradas.
 
-📷 *Inserir print do acesso ao S3.*
+<img width="623" height="115" alt="image" src="https://github.com/user-attachments/assets/72d3eb3f-004c-46a4-98bf-8b32349e3154" />
 
-📷 *Inserir print do acesso negado ao Lambda.*
+
+<img width="1263" height="313" alt="image" src="https://github.com/user-attachments/assets/c447e338-1f88-4afb-940f-cbd3543e56da" />
+
 
 ---
 
@@ -161,9 +171,11 @@ Foi alterada a política de confiança da Role, removendo a autorização do usu
 
 Após essa alteração, uma nova tentativa de assumir a Role resultou em erro de acesso, comprovando o funcionamento das políticas de confiança.
 
-📷 *Inserir print da alteração da Trust Policy.*
+<img width="1013" height="465" alt="image" src="https://github.com/user-attachments/assets/3f389c9f-7fa6-4082-87f6-3ade459be4f6" />
 
-📷 *Inserir print do erro ao assumir a Role.*
+
+<img width="1276" height="300" alt="image" src="https://github.com/user-attachments/assets/ff439acc-4d98-48a2-884f-ed53d521c2f1" />
+
 
 ---
 

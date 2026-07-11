@@ -78,7 +78,8 @@ Foram atribuídas permissões para:
 - AWSLambdaBasicExecutionRole
 - AmazonDynamoDBFullAccess
 
-📷 *Inserir print da Role criada.*
+<img width="1009" height="244" alt="image" src="https://github.com/user-attachments/assets/a3d8fb77-ca83-4418-a17d-4eefebccd753" />
+
 
 ---
 
@@ -93,7 +94,8 @@ Configuração utilizada:
 | Nome | Produtos |
 | Chave de Partição | id (String) |
 
-📷 *Inserir print da tabela criada.*
+<img width="1028" height="322" alt="image" src="https://github.com/user-attachments/assets/6eaab4cd-0d0f-481d-a86c-f892eb441ed3" />
+
 
 ---
 
@@ -109,7 +111,8 @@ Foram realizadas as seguintes configurações:
 - memória de 256 MB;
 - timeout de 10 segundos.
 
-📷 *Inserir print da função Lambda.*
+<img width="836" height="442" alt="image" src="https://github.com/user-attachments/assets/09996dac-75fc-4c05-812b-fa0aa408235b" />
+
 
 ---
 
@@ -127,7 +130,8 @@ Foram configuradas as rotas:
 | PUT | /produtos/{id} |
 | DELETE | /produtos/{id} |
 
-📷 *Inserir print das rotas da API.*
+<img width="989" height="459" alt="image" src="https://github.com/user-attachments/assets/d0855acb-42a2-48f1-98fe-d1ba078e7d2a" />
+
 
 ---
 
@@ -147,9 +151,11 @@ Também foram configurados:
 - Bucket Policy;
 - Permissões públicas para leitura dos arquivos.
 
-📷 *Inserir print do bucket.*
+<img width="1280" height="529" alt="image" src="https://github.com/user-attachments/assets/bbad8b50-1a92-4b99-b801-17e354271815" />
 
-📷 *Inserir print da hospedagem estática.*
+
+<img width="923" height="498" alt="image" src="https://github.com/user-attachments/assets/23c5df75-7d8a-4b01-8804-35a31e87f3e9" />
+
 
 ---
 
@@ -159,7 +165,8 @@ Foi configurada a URL do API Gateway no frontend.
 
 Também foi habilitado o **CORS** para permitir a comunicação entre o site hospedado no S3 e a API.
 
-📷 *Inserir print da configuração do CORS.*
+<img width="981" height="437" alt="image" src="https://github.com/user-attachments/assets/af8084aa-cc82-4dbf-98bb-bb337e821bb8" />
+
 
 ---
 
@@ -176,7 +183,8 @@ As operações realizadas incluíram:
 
 Os dados passaram a ser armazenados automaticamente na tabela DynamoDB.
 
-📷 *Inserir print da aplicação funcionando.*
+<img width="1040" height="616" alt="image" src="https://github.com/user-attachments/assets/c366d7c8-c23e-4020-9b83-bdccf7222b85" />
+
 
 ---
 
@@ -186,7 +194,8 @@ Após os cadastros realizados pela aplicação, foi possível visualizar todos o
 
 Essa etapa confirmou a integração entre API Gateway, Lambda e DynamoDB.
 
-📷 *Inserir print dos itens na tabela.*
+<img width="672" height="454" alt="image" src="https://github.com/user-attachments/assets/bd1ce62a-54f4-4df3-b09a-f3b10ee9d43e" />
+
 
 ---
 
@@ -199,9 +208,11 @@ Foram analisados dois grupos de logs:
 
 Os registros permitiram acompanhar as chamadas HTTP e as execuções da função.
 
-📷 *Inserir print do grupo de logs da Lambda.*
 
-📷 *Inserir print do grupo de logs da API.*
+<img width="1028" height="491" alt="image" src="https://github.com/user-attachments/assets/4e6a74da-127a-4fee-b762-8f0eb4453469" />
+
+<img width="1041" height="449" alt="image" src="https://github.com/user-attachments/assets/2100202f-e318-4537-958d-3fd27c14a113" />
+
 
 ---
 
